@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #ffffff;
+    color: #111;
+}
+
+header {
+    background: #000;
+    color: #d4af37;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.slogan {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+section {
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    color: #000;
+    border-bottom: 2px solid #d4af37;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.services ul,
+.mission-vision ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.services li {
+    padding: 5px 0;
+}
+
+.values {
+    background-color: #f9f9f9;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+copyright {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.main-header {
+    background: #000;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.logo-container img {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.main-header h1 {
+    color: #d4af37; /* Gold */
+    font-size: 42px;
+    margin: 10px 0;
+}
+
+.slogan {
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: #000;
+}
+
+.logo-nav {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-nav img {
+    width: 60px;
+}
+
+.logo-nav span {
+    color: #d4af37;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #d4af37;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: #000;
+}
+
+.hero h1 {
+    color: #d4af37;
+    font-size: 46px;
+}
+
+.hero p {
+    color: #fff;
+    font-size: 18px;
+}
+
+/* SMOOTH SCROLL */
+html {
+    scroll-behavior: smooth;
+}
